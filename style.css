@@ -1,23 +1,100 @@
-body {
-    background-color: #a8bcd0;
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    font-size: 2em;
-}
-header {     
-    background-color: #ffffff;
-    text-align: center;
-    width: 100%; /* Make the header span the full width of the screen */
-    box-sizing: border-box; /* Include padding and border in the element's total width */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #343a40;
 }
 
-.headerLogo, .headerTitle {
-    display: inline-block;
+body {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 2em;
+}
+
+.header {
+  background-color: aqua;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  height: 100px;
+
+  /*height: 100px;
+  width: auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  */
+}
+
+.headerTitle {
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: bold;
+  color: #f8f9fa;
+  
+  /* text-align: left;
+    vertical-align: text-top;
+    left: 85px;
+    position: absolute;
+    */
 }
 
 .headerLogo {
-    width: 100px;
-    height: auto;
-    
+  height: 60px;
+  width: auto;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-left: 5%;
+  /*left: 50px;
+  top: 25px;
+  position: absolute;*/
+}
+
+.braVerde {
+  color: #009739;
+}
+.braAmarelo {
+  color: #fedd00;
+}
+.braAzul {
+  color: #012169;
+}
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.navLinks {
+  list-style: none;
+  padding-right: 100px;
+}
+
+.navLinks li {
+  display: inline-block;
+  pad: 0px 20px;
+}
+
+.navLinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
