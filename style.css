@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,12 +8,13 @@
 }
 
 body {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-size: 2em;
 }
 
+/* Header Style */
 .header {
-  background-color: #343A40;
+  background-color: #343a40;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -31,10 +32,10 @@ body {
 .headerTitle {
   cursor: pointer;
   font-size: 30px;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: "Comfortaa", sans-serif;
   font-weight: bold;
   color: #f8f9fa;
-  
+
   /* text-align: left;
     vertical-align: text-top;
     left: 85px;
@@ -53,16 +54,6 @@ body {
   position: absolute;*/
 }
 
-.braVerde {
-  color: #009739;
-}
-.braAmarelo {
-  color: #fedd00;
-}
-.braAzul {
-  color: #012169;
-}
-
 li,
 a,
 button {
@@ -71,6 +62,8 @@ button {
   color: #f8f9fa;
   text-decoration: none;
 }
+
+/* Nav Style */
 
 .navLinks {
   list-style: none;
@@ -90,6 +83,8 @@ button {
   color: #0088a9;
 }
 
+/* Button styles */
+
 button {
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
@@ -97,4 +92,16 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+}
+
+/* Text Brzil Colors*/
+
+.braVerde {
+  color: #009739;
+}
+.braAmarelo {
+  color: #fedd00;
+}
+.braAzul {
+  color: #012169;
 }
