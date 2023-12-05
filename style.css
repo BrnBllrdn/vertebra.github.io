@@ -1,0 +1,23 @@
+body {
+    background-color: #a8bcd0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+header {     
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%; /* Make the header span the full width of the screen */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.headerLogo, .headerTitle {
+    display: inline-block;
+}
+
+.headerLogo{
+    width: 100px;
+    height: auto;
+    ali
+}
